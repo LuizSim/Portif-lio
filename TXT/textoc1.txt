@@ -1,0 +1,3 @@
+HTML, CSS e JavaScript são os pilares do desenvolvimento web. O HTML define a estrutura das páginas, organizando elementos como textos, imagens e links. O CSS traz estilo e design, transformando essa estrutura em interfaces visuais atrativas, com layouts responsivos e animações. Já o JavaScript adiciona interatividade e dinamismo, permitindo validações, animações e atualizações em tempo real, tornando a experiência do usuário mais envolvente.
+
+TypeScript, uma extensão do JavaScript, adiciona tipagem estática, melhorando a legibilidade e manutenção do código. Ideal para projetos maiores, ele ajuda a reduzir erros e facilita a escalabilidade, enquanto mantém total compatibilidade com o JavaScript, tornando-o essencial para o desenvolvimento web moderno.

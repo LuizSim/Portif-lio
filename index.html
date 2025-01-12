@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luiz Simão</title>
+    <link rel="icon" href="fotos/logo.jpg" type="image/png">
+    <link rel="stylesheet" href="CSS/fontes.css">
+    <link id="theme-stylesheet" rel="stylesheet" href="CSS/estilo1.css">
+    <link id="theme-stylesheet" rel="stylesheet" href="CSS/estilo2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <div class="nav-left2">
+        <buttonH id="logo2">L.S</buttonH>
+        <img src="fotos/foto minha.jpg" alt="Foto de Luiz Simão" class="profile-pic2">
+    </div>
+
+    <ul id="NavL" class="nav-links2">
+        <li><a href="#home" id="home-link" class="dnone">
+                <i class="fas fa-home"></i>
+            </a></li>
+        <li><a href="#projetos" id="projetos-link" class="dnone">
+                <i class="fas fa-folder"></i>
+            </a></li>
+        <li><a href="#contato" id="contato-link" class="dnone">
+                <i class="fas fa-envelope"></i>
+            </a></li>
+    </ul>
+
+    <canvas id="background-canvas"></canvas>
+
+    <div id="transition-overlay"></div>
+
+    <header>
+        <nav>
+            <div class="nav-left">
+                <buttonH id="logo">L.S</buttonH>
+                <img src="fotos/foto minha.jpg" alt="Foto de Luiz Simão" class="profile-pic">
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="#home" id="home-link">
+                        <i class="fas fa-home"></i>
+                    </a></li>
+                <li><a href="#projetos" id="projetos-link">
+                        <i class="fas fa-folder"></i>
+                    </a></li>
+                <li><a href="#contato" id="contato-link">
+                        <i class="fas fa-envelope"></i>
+                    </a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="page-section">
+            <p id="homeDC" class="tpf"></p>
+            <div class="home-container">
+                <p id="homeFE" class="tpf2"></p>
+                <div class="home-photo">
+                    <img id="profile-photo" src="fotos/foto E1.jpg" alt="Minha foto" />
+                </div>
+            </div>
+            <div class="home-photo2">
+                <img id="profile-photo2" src="fotos/foto E2.jpg" alt="Minha foto" />
+            </div>
+            <p id="baixoHM" class="TX3"></p>
+
+            <button class="bel" id="toggleButton">
+                <i class="fab fa-html5"></i>
+                <i class="fab fa-css3-alt"></i>
+                <i class="fab fa-js"></i>
+                <i class="fab fa-react"></i>
+            </button>
+
+            <div class="text-box hidden">
+                <p id="TC1" class="textocaixa"></p>
+
+                <div class="icon-container">
+                    <div class="icon-box">
+                        <div class="icon-content front html-box">
+                            <i class="fab fa-html5"></i>
+                            <p class="TIC">HTML</p>
+                        </div>
+                        <div class="icon-content back html-box">
+                            <p class="TIC">HTML (HyperText Markup Language) é usado para criar e estruturar páginas web,
+                                definindo elementos como texto, imagens e links.</p>
+                        </div>
+                    </div>
+                    <div class="icon-box">
+                        <div class="icon-content front css-box">
+                            <i class="fab fa-css3-alt"></i>
+                            <p class="TIC">CSS</p>
+                        </div>
+                        <div class="icon-content back css-box">
+                            <p class="TIC">CSS (Cascading Style Sheets) é responsável por estilizar páginas web,
+                                aplicando cores, fontes, layouts e designs responsivos.</p>
+                        </div>
+                    </div>
+                    <div class="icon-box">
+                        <div class="icon-content front js-box">
+                            <i class="fab fa-js"></i>
+                            <p class="TIC">JavaScript</p>
+                        </div>
+                        <div class="icon-content back js-box">
+                            <p class="TIC">JavaScript, linguagem de programação que adiciona interatividade e dinamismo
+                                às páginas, como animações e respostas em tempo real.</p>
+                        </div>
+                    </div>
+                    <div class="icon-box">
+                        <div class="icon-content front cpp-box">
+                            <i class="fas fa-code"></i>
+                            <p class="TIC">C++</p>
+                        </div>
+                        <div class="icon-content back cpp-box">
+                            <p class="TIC">O C++ é uma linguagem de alto desempenho, ideal para sistemas complexos,
+                                motores de jogos e aplicações que exigem controle detalhado de hardware.</p>
+                        </div>
+                    </div>
+                    <div class="icon-box">
+                        <div class="icon-content front python-box">
+                            <i class="fab fa-python"></i>
+                            <p class="TIC">Python</p>
+                        </div>
+                        <div class="icon-content back python-box">
+                            <p class="TIC">Python, uma linguagem versátil e de fácil aprendizado, usada em automação,
+                                inteligência artificial, análise de dados e desenvolvimento de aplicações.</p>
+                        </div>
+                    </div>
+                    <div class="icon-box">
+                        <div class="icon-content front ts-box">
+                            <i class="fas fa-code-branch"></i>
+                            <p class="TIC">TypeScript</p>
+                        </div>
+                        <div class="icon-content back ts-box">
+                            <p class="TIC">TypeScript, uma extensão do JavaScript que adiciona tipagem estática,
+                                tornando o desenvolvimento mais seguro e organizado.</p>
+                        </div>
+                    </div>
+                    <div class="icon-box">
+                        <div class="icon-content front react-box">
+                            <i class="fab fa-react"></i>
+                            <p class="TIC">React</p>
+                        </div>
+                        <div class="icon-content back react-box">
+                            <p class="TIC">React é uma biblioteca JavaScript para criar interfaces de usuário, focada em
+                                componentes reutilizáveis e performance eficiente.</p>
+                        </div>
+                    </div>
+                    <div class="icon-box">
+                        <div class="icon-content front postgresql-box">
+                            <i class="fas fa-database"></i>
+                            <p class="TIC">MySQL</p>
+                        </div>
+                        <div class="icon-content back postgresql-box">
+                            <p class="TIC">MySQL é um sistema de banco de dados relacional amplamente utilizado,
+                                conhecido por sua alta performance, sendo ideal para aplicações web e corporativas.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <p id="TC2" class="textocaixa"></p>
+            </div>
+
+            <h4>Oque eu posso fazer?</h4>
+            <div class="home-container2">
+                <div class="CM-photo">
+                    <img id="profile-photo" src="fotos/mail.png" alt="Minha foto" />
+                </div>
+                <p class="texto-contato">
+                    Dou vida às suas ideias, criando soluções que conectam você ao mundo!
+                    <button class="BC" id="contactButton">Entre em contato!</button>
+                </p>
+            </div>
+
+
+            <h2>Como comecei?</h2>
+            <div class="home-container2">
+                <p id="CC?" class="TX2"></p>
+                <div class="HMN" class="CM-photo">
+                    <img class="cmf" id="profile-photo" src="fotos/rb_2151553996.png" alt="Minha foto" />
+                </div>
+            </div>
+        </section>
+
+        <section id="projetos" class="page-section hidden">
+            <div class="projetos-container"></div>
+        </section>
+
+        <section id="contato" class="page-section hidden2">
+            <div class="contato-links">
+                <a href="https://www.linkedin.com/in/luiz-artur-simão-7453382ab/" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="#1a1a1a" viewBox="0 0 24 24">
+                        <path
+                            d="M22.23 0H1.77A1.76 1.76 0 000 1.75v20.5A1.76 1.76 0 001.77 24h20.46A1.76 1.76 0 0024 22.25V1.75A1.76 1.76 0 0022.23 0zm-13.85 20H4.54V8.85h3.85zM6.26 7.37a2.2 2.2 0 112.2-2.2 2.2 2.2 0 01-2.2 2.2zM20 20h-3.85v-5.63c0-3.36-4-3.11-4 0V20H8.31V8.85h3.69v1.52c1.69-3.14 8-3.39 8 3v6.63z" />
+                    </svg>
+                    <span>LinkedIn</span>
+                </a>
+                <a href="https://github.com/LuizSim" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="#1a1a1a" viewBox="0 0 24 24">
+                        <path
+                            d="M12 .5a12 12 0 00-3.79 23.38c.6.11.81-.26.81-.58v-2.18c-3.34.73-4-1.61-4-1.61-.54-1.36-1.33-1.72-1.33-1.72-1.09-.75.08-.73.08-.73 1.2.09 1.83 1.24 1.83 1.24 1.07 1.83 2.81 1.3 3.5.99.1-.78.42-1.3.76-1.6-2.67-.31-5.47-1.33-5.47-5.92A4.63 4.63 0 016.48 8.4c-.13-.31-.56-1.57.11-3.28 0 0 1-.32 3.28 1.24a11.38 11.38 0 015.98 0c2.3-1.57 3.28-1.24 3.28-1.24.67 1.71.25 3-.11 3.28a4.63 4.63 0 011.24 3.2c0 4.6-2.81 5.61-5.49 5.92.43.37.8 1.11.8 2.24v3.33c0 .31.21.69.81.58A12 12 0 0012 .5z" />
+                    </svg>
+                    <span>GitHub</span>
+                </a>
+                <a href="https://wa.me/5547984834618" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="#1a1a1a" viewBox="0 0 24 24">
+                        <path
+                            d="M17.472 14.269c-.297-.149-1.762-.868-2.037-.964-.274-.099-.474-.148-.674.148-.198.297-.77.964-.944 1.162-.173.198-.348.223-.644.075-.297-.149-1.255-.463-2.39-1.476-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.605.133-.132.297-.346.446-.52.15-.173.198-.297.297-.495.099-.198.05-.371-.025-.52-.075-.149-.674-1.611-.924-2.207-.242-.579-.487-.501-.674-.511-.173-.008-.371-.01-.57-.01-.198 0-.52.075-.792.372-.272.297-1.04 1.016-1.04 2.48s1.065 2.883 1.213 3.084c.149.198 2.094 3.2 5.076 4.487.709.306 1.262.489 1.694.626.712.226 1.36.194 1.871.118.571-.085 1.762-.718 2.01-1.412.247-.694.247-1.289.173-1.412-.074-.124-.271-.198-.57-.347zM12.004 0C5.375 0 0 5.375 0 12c0 2.118.552 4.156 1.604 5.964L0 24l6.234-1.575C8.01 23.449 10.005 24 12.004 24 18.627 24 24 18.627 24 12S18.627 0 12.004 0z" />
+                    </svg>
+                    <span>WhatsApp</span>
+                </a>
+                <a href="mailto:a_simao@icloud.com" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="#1a1a1a" viewBox="0 0 24 24">
+                        <path
+                            d="M12 13.35L.276 5.724c-.162.447-.276.931-.276 1.476v9.6c0 2.1 1.9 3.6 3.3 3.6H20.7c1.4 0 3.3-1.5 3.3-3.6v-9.6c0-.545-.114-1.029-.276-1.476zm11.424-8.922C22.58 4.156 21.64 3.6 20.7 3.6H3.3c-.94 0-1.88.556-2.724.828L12 11.85l11.424-7.422z" />
+                    </svg>
+                    <span>Email</span>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <script src="JS/fundo.js"></script>
+    <script src="JS/script.js"></script>
+    <script src="JS/textos.js"></script>
+    <script src="JS/prtj.js"></script>
+    <script src="JS/prtjH.js"></script>
+    <script type="text/javascript"
+        src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</body>
+
+</html>

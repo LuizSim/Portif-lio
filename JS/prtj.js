@@ -4,7 +4,7 @@ const dadosProjetos = [
     { imagem: "fotos/IMC.png", titulo: "Percentual de Água e IMC", descricao: "Um site que calcula aproximadamente seu percentual de água essencial para você e mostra seu IMC.", botaoTexto: "Visitar site", link: "https://luizsim.github.io/IMC/" },
     { imagem: "fotos/resumidor IA.png", titulo: "Resumidor com IA", descricao: "Um software que resume vídeos do YouTube utilizando inteligência artificial e salva o resumo em um arquivo de texto com o resumo.", botaoTexto: "Download", link: "https://drive.usercontent.google.com/download?id=1NNMP5VDBqIjFvsIIhBB97TcBJSnxcmpx&export=download&authuser=1" },
     { imagem: "fotos/dashboard.png", titulo: "DashBoard", descricao: "Um programa que extrai dados de um documento PDF, gera uma planilha no Excel e utiliza a mesma para criar um DashBoard interativo e claro em seus resultados.", botaoTexto: "Ver código", link: "https://github.com/LuizSim/dashboard/blob/main/dashboard/dashboard_dados_pessoas.py" },
-    { imagem: "fotos/galeria.png", titulo: "Galeria de Fotos", descricao: "Uma galeria de fotos em modelo de carrossel sobre uma cadela chamada Lilica.", botaoTexto: "Visitar site", link: "https://luizsim.github.io/Lilica/" }
+    { imagem: "fotos/prt.png", titulo: "Portfolio DEV", descricao: "Meu portfolio de desenvolvedor web, feito exclusivamento com as bases do front-end.", botaoTexto: "Ver código", link: "https://github.com/LuizSim/Portif-lio" }
 ];
 
 const container = document.querySelector('.projetos-container');

@@ -37,6 +37,10 @@ body::-webkit-scrollbar {
     display: none;
 }
 
+.ALERTA {
+    display: none;
+}
+
 #background-canvas {
     position: fixed;
     top: 0;
@@ -357,6 +361,17 @@ p {
 }
 
 .home-container2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 100%;
+    margin-right: 1vw;
+    padding: 1vw;
+    box-sizing: border-box;
+}
+
+.home-container3 {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -863,6 +878,29 @@ h3 {
 .PC.flipped .card-back {
     transform: rotateY(0deg);
 }
+
+.titulo-linguagem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.linguagem {
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.linguagem.python { background-color: #3a7cb3; }
+.linguagem.excel { background-color: #1f971f; }
+.linguagem.cpp { background-color: #054679; }  
+.linguagem.cs { background-color: #9c04a1; }  
+.linguagem.html { background-color: #E34F26; }
+.linguagem.css { background-color: #1572B6; } 
+.linguagem.javascript { background-color: #F7DF1E; }
+.linguagem.react { background-color: #00adcc;}
 
 @keyframes fadeIn {
     0% {
